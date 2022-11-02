@@ -1,0 +1,19 @@
+body{
+    background-color: lightblue;
+}
+h2{ 
+    font-size: 50px;
+    color: cadetblue;
+    text-align: center;
+}
+#submit{
+    border-radius: 6px;
+    border-color: burlywood;
+}    
+
+.form_input{
+    border-radius: 6px;
+    border-color: blueviolet;
+}
+
+
