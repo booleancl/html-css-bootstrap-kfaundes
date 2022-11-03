@@ -101,7 +101,24 @@ las etiquetas  para hacer títulos  son las etiquetas **h** con números de 1 al
 ``` 
 ### Tablas
 
-
+<table>
+    <tr>
+      <th>Italiano</th>
+      <th>Chacarero</th>
+    </tr>
+    <tr>
+      <td>Tomate</td>
+      <td>Lechuga</td>
+    </tr>
+    <tr>
+      <td>Palta</td>
+      <td>Porotos</td>
+    </tr>
+    <tr>
+      <td>Mayo</td>
+      <td>Ají</td>
+    </tr>
+  </table>
 
 
 
@@ -120,4 +137,235 @@ Enviar un mensaje a microsystem-g0
 
 
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### modelo de caja
+
+es una escencia cada elento html esta inserto dentro de una caja que consite de: Margen, borde, padding y contenidos.
+
+![Box model](img/box-model.png)
+
+### unidades de medida
+
+en general, no solo en desarrollo, podemos clsificar las unidades de medida en dos grupos:
+
+- Unidades absolutas: px
+- Unidades relativas:%, rem, em, vh, vw
+
+### rem
+Es una unidad de medida relativa al font-size del elemnto raiz
+
+### em
+Es relativa al font-size del mismo elemento
+
+### vh
+Es  relativo al 1% del ancho de la pantalla (viewport)
+
+###  vw 
+Es relativo al 1% del ancho de la pantalla o viewport
+
+
+### tipos de diseño
+
+- El diseño  estático: Sirve s para unsolo tamaño de pantalla.
+- El diseño fluido: se basa en porcentajes(%) dependiendo del tamaño de la pantalla.
+- Diseño responsivo: Tiene  puntos de quiebre( distintis tamaños) para aplicar diferentes   estilos.
+
+### CSS MediaQueries
+
+Utiliza la regla, `@media` para  incluir un bloque de propiedad Css solo si la condicion es verdadera. Ejemplo:
+
+
+
+
+
+
+
+
+
+
+
+
+```css
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width:  992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...} 
+```
+
+### Display
+```css
+/* si el tamaño de la pantalla es de 600px o menor, el color  de fondo del body sera verde*/
+@media only screen and (max-width:600px){
+  body {
+        background-color: green;
+    }
+
+    p{
+        display:none
+    }
+}    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
